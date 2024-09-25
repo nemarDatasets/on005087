@@ -9,5 +9,6 @@
         "Marlene Behrmann",
         "Thomas A Carlson"
     ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005087.v1.0.0"
+    "DatasetDOI": "doi:10.18112/openneuro.ds005087.v1.0.0",
+    "HowToAcknowledge": "[PREPRINT] Robinson A.K., Grootswagers T., Shatek S., Behrmann M., Carlson T.A. (2024). Dynamics of visual object coding within and across the hemispheres: Objects in the periphery. PsyArXiv, a3bpd https://doi.org/10.31234/osf.io/a3bpd"
 }
