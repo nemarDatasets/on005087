@@ -1,31 +1,92 @@
 {
   "version": "2.0",
-  "dataset_id": "on005087",
-  "source": "openneuro",
-  "source_id": "ds005087",
+  "pipeline_stage": "validated",
   "title": "rapid-hemifield-object-eeg",
-  "authors": {
-    "Amanda K Robinson": {},
-    "Tijl Grootswagers": {},
-    "Sophia M Shatek": {},
-    "Marlene Behrmann": {},
-    "Thomas A Carlson": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Amanda K Robinson": {
+      "orcid": "0000-0002-7378-2803"
+    },
+    "Tijl Grootswagers": {
+      "orcid": "0000-0002-7961-5002"
+    },
+    "Sophia M Shatek": {
+      "orcid": "0000-0002-7787-1379"
+    },
+    "Marlene Behrmann": {
+      "orcid": "0000-0002-3814-1015"
+    },
+    "Thomas A Carlson": {
+      "orcid": "0000-0002-3953-4195"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005087.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.31234/osf.io/a3bpd",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005087",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005087",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1126/sciadv.adq0889",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This EEG dataset examines the neural dynamics of visual object representation across cerebral hemispheres during peripheral vision tasks. Participants viewed object and word stimuli presented at 5 Hz to the left or right visual fields, or centrally, while performing an orthogonal red target detection task. The dataset provides insights into how visual information is processed and integrated across hemispheric boundaries during rapid stimulus presentation.",
+  "methods_description": "Object and word stimuli were presented at 5 Hz to the left or right visual fields, or centrally, while participants performed an orthogonal red target detection task. EEG data were recorded during these visual presentation conditions.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual object recognition"
+    },
+    {
+      "term": "hemispheric lateralization"
+    },
+    {
+      "term": "peripheral vision"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "neural dynamics"
+    }
+  ],
+  "source_hash": "b1c4b23a4191fe47227e8cbd52f9ea26a062b8f60a3c801ff07d49d21b9df3db"
 }
