@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "rapid-hemifield-object-eeg",
-  "description": "This EEG dataset examines the neural dynamics of visual object coding across cerebral hemispheres using rapid serial visual presentation. Participants viewed object and word stimuli presented at 5 Hz to the left visual field, right visual field, or central location while performing an orthogonal red target detection task. The dataset provides insights into how visual information is processed within and across hemispheric boundaries during peripheral vision.",
-  "methods_description": "Visual stimuli (objects and words) were presented at 5 Hz to the left visual field, right visual field, or centrally while participants performed a red target detection task. EEG data were recorded during these visual presentation trials.",
+  "description": "This EEG dataset investigates the neural dynamics of visual object coding across cerebral hemispheres using rapid serial visual presentation. Participants viewed object and word stimuli presented at 5 Hz to the left visual field, right visual field, or central location while performing an orthogonal red target detection task. The dataset provides insights into how visual information is processed and integrated within and across hemispheric regions during peripheral and central vision.",
+  "methods_description": "Object and word stimuli were presented at 5 Hz to the left or right visual fields, or centrally, while participants performed an orthogonal red target detection task. EEG data were recorded during these visual presentation trials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,13 +34,13 @@
       "term": "hemispheric lateralization"
     },
     {
-      "term": "visual fields"
-    },
-    {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "event-related potentials"
+      "term": "visual perception"
+    },
+    {
+      "term": "neural dynamics"
     }
   ],
   "related_identifiers": [
