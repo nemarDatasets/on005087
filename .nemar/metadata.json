@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "rapid-hemifield-object-eeg",
-  "description": "This EEG dataset investigates the neural dynamics of visual object coding across brain hemispheres. Object and word stimuli were rapidly presented (5Hz) in the left visual field, right visual field, or centrally, while participants engaged in an orthogonal red-target detection task. The dataset supports investigation of within- and cross-hemisphere object representation dynamics using frequency-tagging EEG paradigms.",
+  "description": "EEG recordings from participants viewing object and word stimuli presented in rapid serial streams at 5 Hz to the left visual field, the right visual field, or centrally. Participants performed an orthogonal red target detection task while stimuli were shown. The dataset supports investigation of the temporal dynamics of visual object coding within and across the cerebral hemispheres, particularly for objects in peripheral vision.",
   "methods_description": "Object and word stimuli were presented at a rapid rate of 5Hz in the left or right visual field or centrally, while participants performed an orthogonal red target detection task, with EEG recorded throughout.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -28,21 +28,21 @@
       "term": "EEG"
     },
     {
-      "term": "Visual Perception",
+      "term": "visual object recognition"
+    },
+    {
+      "term": "peripheral vision"
+    },
+    {
+      "term": "Visual Fields",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "hemispheric lateralization"
-    },
-    {
-      "term": "object recognition"
-    },
-    {
-      "term": "frequency tagging"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014794"
     },
     {
       "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "hemispheric lateralization"
     }
   ],
   "related_identifiers": [
@@ -77,7 +77,7 @@
     "eeg"
   ],
   "sizes": [
-    "63.2 GB (262 files)"
+    "58.84 GB (262 files)"
   ],
   "formats": [
     ".csv",
